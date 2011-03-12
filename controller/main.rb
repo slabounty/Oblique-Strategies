@@ -206,7 +206,7 @@ OBLIQUE_STRATEGIES = [
 class MainController < Controller
     # the index action is called automatically when no other action is specified
     def index
-        @title = "Oblique Strategies!"
+        @title = "Oblique Strategies - Design"
         @oblique_strategy = OBLIQUE_STRATEGIES[rand(OBLIQUE_STRATEGIES.size)]
     end
 
